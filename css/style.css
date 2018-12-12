@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('../fonts/RobotoBold.eot');
+    src: url('../fonts/RobotoBold.eot') format('embedded-opentype'),
+    url('../fonts/RobotoBold.woff2') format('woff2'),
+    url('../fonts/RobotoBold.woff') format('woff'),
+    url('../fonts/RobotoBold.ttf') format('truetype'),
+    url('../fonts/RobotoBold.svg#RobotoBold') format('svg');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: inherit;
+    color: inherit;
+    -webkit-font-smoothing: antialiased;
+
+}
+ header{
+     background-color: #ffffff;
+     height: 90px;
+ }
+ .container {
+     max-width: 1170px;
+     margin: auto;
+     padding: 27px 0;
+}
+ .menu{
+     float: right;
+ }
+ .menu ul {
+     display: inline;
+     list-style: none;
+     color: #777777;
+     font-family: 'RobotoBold';
+     font-size: 14px;
+     text-transform: uppercase;
+     box-sizing: border-box;
+
+ }
+ .menu ul li:hover{
+     color: #000000;
+ }
+ .menu ul li:hover:after{
+     content: "____";
+     width: 20px;
+     height: 1px;
+     color: black;
+ }
+.menu ul li{
+    display: inline;
+    padding-right: 47px;
+    /*box-sizing: border-box;*/
+}
+ .menu ul li a {
+     text-decoration: none;
+ }
+ header:after{
+     clear: both;
+     content: "";
+     display: block;
+ }
