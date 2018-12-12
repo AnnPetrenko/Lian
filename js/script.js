@@ -9,8 +9,8 @@ $(document).ready(function(){
         nav:true,
 
 
-        navText: [
-        ],
+        // navText: [
+        // ],
 
         responsive:{
             0:{
