@@ -105,54 +105,61 @@ body{
      content: "";
      display: block;
  }
- /*.owl-carousel img{*/
-     /*position: relative;*/
-     /*z-index: 0;*/
- /*}*/
-/*.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {*/
-    /*background-color: white;*/
-    /*width: 20px;*/
-    /*height: 20px;*/
-    /*border-radius: 20px;*/
-    /*margin: 0 20px;*/
-    /*border: solid 4px transparent ;*/
-/*}*/
-/*.owl-dots{*/
-    /*position: absolute;*/
-    /*bottom: 100px;*/
-    /*width: 100%;*/
-    /*text-align: center;*/
+ .owl-carousel img{
+     position: relative;
+     z-index: 0;
+ }
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    margin: 0 20px;
+    border: solid 4px transparent ;
+    outline: none;
+}
+.owl-dots{
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    text-align: center;
+    display: none !important;
 
-/*}*/
-/*.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.active{*/
-    /*background-color: white;*/
-    /*border: solid 4px black;*/
-/*}*/
-/*.owl-carousel .owl-nav button.owl-prev {*/
-    /*border: solid 1px white;*/
-    /*position: absolute;*/
-    /*bottom: 300px;*/
 
-    /*background-color: transparent;*/
-    /*color: white;*/
-    /*font-size: 30px;*/
-    /*width: 40px;*/
-    /*height: 40px;*/
-    /*border-radius: 20px;*/
-/*}*/
 
-/*.owl-carousel .owl-nav button.owl-next{*/
-    /*border: solid 1px white;*/
-    /*position: absolute;*/
-    /*bottom: 300px;*/
-    /*background-color: transparent;*/
-    /*color: white;*/
-    /*font-size: 30px;*/
-    /*width: 40px;*/
-    /*height: 40px;*/
-    /*border-radius: 20px;*/
-    /*right: 0;*/
-/*}*/
+}
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot.active{
+    background-color: white;
+    border: solid 4px black;
+    display: none !important;
+
+}
+.owl-carousel .owl-nav button.owl-prev {
+    border: solid 1px white;
+    position: absolute;
+    bottom: 300px;
+
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.owl-carousel .owl-nav button.owl-next{
+    border: solid 1px white;
+    position: absolute;
+    bottom: 300px;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    right: 0;
+
+}
  .banner-carousel h1{
     background-color: black;
     font-size: 48px;
@@ -181,12 +188,12 @@ body{
      font-family: 'robotolight';
 
  }
-/*.owl-carousel .owl-nav button.owl-next:hover{*/
-    /*background-color: black;*/
-/*}*/
-/*.owl-carousel .owl-nav button.owl-prev:hover{*/
-    /*background-color: black;*/
-/*}*/
+.owl-carousel .owl-nav button.owl-next:hover{
+    background-color: black;
+}
+.owl-carousel .owl-nav button.owl-prev:hover{
+    background-color: black;
+}
 
 .banner_contact h1{
     background-color: black;
@@ -394,4 +401,70 @@ body{
     width: 355px;
     /*margin-right: 35px;*/
     display: inline-block;
+}
+.images h2{
+    font-family: 'robotolight';
+    font-size: 18px;
+    color: black;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-bottom: 42px;
+}
+.images p{
+    font-size: 14px;
+    font-family: 'robotoregular';
+    padding-bottom: 66px;
+    color: #a3a3a3;
+
+
+}
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+
+
+}
+
+footer a {
+    text-align: center;
+
+}
+footer  img {
+
+    padding: 64px 0 44px;
+
+
+
+}
+.icons{
+    height: 62px;
+    border-top: solid 1px #ebebeb;
+    border-bottom: solid 1px #ebebeb;
+
+
+}
+.icons i {
+    color: #777777;
+    font-size: 20px;
+    padding: 25px 57px 25px 0;
+}
+.icons a{
+    text-decoration: none;
+}
+footer p {
+    color: #b8b8b8 ;
+    font-size: 13px;
+    font-family: 'robotoregular';
+    text-transform: uppercase;
+    margin-top: 37px;
+
+}
+footer p span {
+    color: black;
+
+}
+.owl-carousel{
+    padding-bottom: 65px;
 }
